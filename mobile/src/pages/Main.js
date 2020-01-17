@@ -82,7 +82,7 @@ function Main({ navigation }) {
         style={styles.map}>
         {devs.map(dev => (
           <Marker
-            key={dev, _id}
+            key={dev._id}
             coordinate={{
               longitude: dev.location.coordinates[0],
               latitude: dev.location.coordinates[1],
